@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Script from "next/script";
 
 export default function Home() {
   // Link afiliasi Digistore24
@@ -6,7 +7,12 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-neutral-100 font-sans text-neutral-900 antialiased selection:bg-emerald-100">
-      
+      {/* Script Iklan Social Bar Adsterra */}
+      <Script 
+        src="https://pl30192912.effectivecpmnetwork.com/3b/3a/9d/3b3a9d6cc7a58faadb0a25ceedb35e89.js"
+        strategy="afterInteractive"
+      />
+
       {/* Top Notification Bar - Membangun Otoritas */}
       <div className="bg-neutral-900 text-white text-center py-2 px-4 text-xs font-semibold tracking-wider uppercase">
         Official Senior Health Bulletin &bull; Verified Educational Resource
